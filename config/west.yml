@@ -1,5 +1,9 @@
 manifest:
   remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: pinkeybd-firmware
+      url-base: https://github.com/ktkhshi/pinkeybd-firmware
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
@@ -9,6 +13,10 @@ manifest:
     - name: badjeff
       url-base: https://github.com/badjeff
   projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: v0.3-branch
+      import: app/west.yml
     - name: zephyr
       remote: zmkfirmware
       revision: v3.5.0+zmk-fixes
