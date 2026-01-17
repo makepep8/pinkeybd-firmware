@@ -25,4 +25,4 @@ jobs:
       destination: "both"
 
     secrets:
-      token: ${{ secrets.GH_PAT }} # ここを追加
+      token: ${{ secrets.GITHUB_TOKEN }} # ここを追加
