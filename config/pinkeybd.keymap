@@ -31,7 +31,7 @@
 &kp Q     &kp W             &kp E        &kp R         &kp T      &kp ESC         &kp Y      &kp U             &kp I      &kp O       &kp P
 &kp A     &kp S             &kp D        &kp F         &kp G      &kp SCROLLLOCK  &kp H      &kp J             &kp K      &kp L       &kp ENTER
 &kp Z     &kp X             &kp C        &kp V         &kp B      &kp TAB         &kp N      &kp M             &kp COMMA  &kp PERIOD  &kp RIGHT_SHIFT
-&kp CAPS  &lt 2 LANGUAGE_5  &lt 3 SPACE  &kp LEFT_WIN  &mkp RCLK  &mkp LCLK       &kp ENTER  &lt 4 LANGUAGE_5  &mo 3
+&kp CAPS  &lt 2 LANGUAGE_5  &lt 0 SPACE  &kp LEFT_WIN  &mkp RCLK  &mkp LCLK       &kp ENTER  &lt 3 LANGUAGE_5  &mo 0
             >;
 
             sensor-bindings = <&rot_kp PG_DN PG_UP>;
@@ -39,10 +39,10 @@
 
         layer_6 {
             bindings = <
-&kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET         &kp AMPERSAND      &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TAB     &trans           &trans       &trans    &trans      &kp PLUS     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMICOLON  &kp COLON             &kp ENTER
-&kp LCTRL   &trans           &trans       &trans    &trans      &kp EQUAL    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &trans
-&trans      &trans           &trans       &trans    &trans      &trans       &trans            &trans             &trans
+&kp ESCAPE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH       &kp DOLLAR        &kp PERCENT  &kp CARET         &kp AMPERSAND      &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TAB     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMICOLON  &kp COLON         &kp PLUS     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMICOLON  &kp COLON             &kp ENTER
+&kp LCTRL   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &trans
+&trans      &trans            &trans             &trans         &trans            &trans       &trans            &trans             &trans
             >;
         };
 
@@ -51,16 +51,7 @@
 &kp FSLH    &kp COMMA  &kp END    &kp LEFT_BRACE  &kp DOUBLE_QUOTES  &kp PAUSE_BREAK  &kp LPAR        &kp RPAR      &kp UP     &kp LBKT   &kp RBKT
 &kp HOME    &kp LS(S)  &kp E      &kp RPAR        &kp U              &kp SCROLLLOCK   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN   &kp RIGHT  &kp DEL
 &kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp Q              &kp TAB          &kp APOS        &kp EQUAL     &kp BSLH   &kp GRAVE  &kp INS
-&kp LSHIFT  &none      &kp SPACE  &kp LALT        &kp PSCRN          &kp RSHIFT       &kp ENTER       &mo 5         &kp RCTRL
-            >;
-        };
-
-        Lower2_layer {
-            bindings = <
-&none       &kp COMMA  &kp END    &kp LEFT_BRACE   &kp SINGLE_QUOTE  &kp ESC     &kp L      &kp R      &kp PG_UP   &kp LBKT   &kp RBRC
-&kp HOME    &kp LS(S)  &kp END    &kp RIGHT_BRACE  &kp U             &kp LCTRL   &kp BSPC   &kp HOME   &kp PG_DN   &kp END    &kp DEL
-&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)        &kp Q             &kp TAB     &kp APOS   &kp EQUAL  &kp BSLH    &kp GRAVE  &kp INS
-&kp LSHIFT  &mo 6      &kp SPACE  &kp LALT         &kp PSCRN         &kp RSHIFT  &kp ENTER  &none      &kp RSHIFT
+&kp LSHIFT  &none      &kp SPACE  &kp LALT        &kp PSCRN          &kp RSHIFT       &kp ENTER       &mo 4         &kp RCTRL
             >;
         };
 
@@ -69,7 +60,7 @@
 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp ESC     &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &none       &kp RS(N6)  &kp RS(N7)  &kp RS(N8)  &kp RS(N9)  &kp RS(N0)
 &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp TAB     &kp APOS    &kp EQUAL   &kp BSLH    &kp GRAVE   &kp INS
-&mo 0       &mo 6       &kp SPACE   &kp LSHIFT  &kp F11     &kp RSHIFT  &kp ENTER   &none       &kp RSHIFT
+&mo 0       &mo 5       &kp SPACE   &kp LSHIFT  &kp F11     &kp RSHIFT  &kp ENTER   &none       &kp RSHIFT
             >;
         };
 
