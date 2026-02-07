@@ -42,16 +42,16 @@
 &kp ESCAPE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH       &kp DOLLAR        &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp TAB     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMICOLON  &kp COLON         &kp PLUS     &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT             &kp ENTER
 &kp LCTRL   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL    &none      &none          &kp COMMA     &kp PERIOD            &kp SLASH
-&trans      &trans            &trans             &trans         &trans            &trans       &trans     &trans         &trans
+&trans      &kp LEFT_ALT      &trans             &trans         &trans            &trans       &trans     &trans         &trans
             >;
         };
 
         Lower_layer {
             bindings = <
-&kp FSLH    &kp COMMA  &kp END    &kp LEFT_BRACE  &kp DOUBLE_QUOTES  &kp PAUSE_BREAK  &kp LPAR        &kp RPAR      &kp UP     &kp LBKT   &kp RBKT
-&kp HOME    &kp LS(S)  &kp E      &kp RPAR        &kp U              &kp SCROLLLOCK   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN   &kp RIGHT  &kp DEL
-&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp Q              &kp TAB          &kp APOS        &kp EQUAL     &kp BSLH   &kp GRAVE  &kp INS
-&kp LSHIFT  &none      &kp SPACE  &kp LALT        &kp PSCRN          &kp RSHIFT       &kp ENTER       &mo 4         &kp RCTRL
+&kp FSLH    &kp COMMA  &kp END    &none      &none      &kp PAUSE_BREAK  &none      &none      &none      &kp PAGE_UP    &kp DELETE
+&kp HOME    &kp LS(S)  &none      &none      &none      &kp SCROLLLOCK   &none      &none      &none      &kp PAGE_DOWN  &kp ENTER
+&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)  &none      &kp TAB          &kp APOS   &kp EQUAL  &kp BSLH   &kp GRAVE      &kp INS
+&kp LSHIFT  &none      &kp SPACE  &kp LALT   &kp PSCRN  &kp RSHIFT       &kp ENTER  &mo 4      &kp RCTRL
             >;
         };
 
